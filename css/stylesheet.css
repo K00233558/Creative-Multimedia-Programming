@@ -64,7 +64,7 @@ nav ul a:hover{
 
 header{
 	min-height: 40vh;
-	background:black;
+	background:url(../img/halftone-yellow.png)center/cover fixed no-repeat;
 	background-position:center;
 	background-size:cover;
 	background-repeat: no-repeat;
@@ -87,7 +87,7 @@ nav{
 }
 
 .banner-image{
-	margin-top:100px;
+	margin-top:50px;
 }
 	
 .banner h1 {
@@ -164,7 +164,7 @@ nav ul a:hover{
 
 .services{
 	min-height:80vh;
-	background:url(../img/palm.jpeg)center/cover fixed no-repeat;
+	background:url(../img/doodles.png)center/cover fixed no-repeat;
 	display:flex;
 	align-items:center;
 }
@@ -187,11 +187,17 @@ nav ul a:hover{
 
 .service-text h3{
 	text-transform:uppercase;
+	color:black;
+}
+
+.service h1{
+	color:black;
 }
 
 .service-text p{
 	line-height: 2;
 	margin-top: 5px;
+	color:black;
 }
 
 @media screen and (min-width:576px){
@@ -339,9 +345,9 @@ nav ul a:hover{
 
 /*$$$$$$$$$$$$$$$$$$$$$$$$$about$$$$$$$$$$$$$$$$$$$$$$$*/
 .about{
-	min-height:100vh;
+	min-height:20vh;
 	padding:100px 0;
-	background:url(../img/gallery6.jpeg)center/cover
+	background:url(../img/green_dust_scratch.png)center/cover
 	fixed no-repeat;
 	display:flex;
 	justify-content:center;
@@ -359,11 +365,6 @@ nav ul a:hover{
 	text-transform:uppercase;
 }
 
-.about-card .fa-car{
-	font-size:60px;
-	color: red;
-	margin: 20px 0
-}
 
 .aoout-card p{
 	line-height:2;
@@ -441,7 +442,7 @@ nav ul a:hover{
 
 /*filler*/
 .filler{
-	min-height:60vh;
+	min-height:10vh;
 	background:url(../img/tear.jpeg)center/cover
 	fixed no-repeat;
 }
