@@ -27,7 +27,7 @@ nav ul a{
 
 nav ul a:hover{
 	background:#474747;
-	color:#4a772f;
+	color:yellow;
 	padding-left:30px;
 }
 
@@ -123,7 +123,7 @@ nav{
 }
 
 .banner-icons a:hover{
-	color:#4a772f;
+	color:yellow;
 	transform:translateY(-10px)
 }
 
