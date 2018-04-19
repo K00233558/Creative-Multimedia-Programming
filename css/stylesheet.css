@@ -4,7 +4,7 @@
 }
 
 body {
-	font-family: 'Monserrat', sans serif;
+	font-family: 'Neucha', sans serif;
 }
 
 
@@ -63,7 +63,7 @@ nav ul a:hover{
 /*#################banner############*/
 
 header{
-	min-height: 40vh;
+	min-height: 20vh;
 	background:url(../img/halftone-yellow.png)center/cover fixed no-repeat;
 	background-position:center;
 	background-size:cover;
@@ -158,62 +158,79 @@ nav ul a:hover{
 
 }
 
+/*flexgridthirds*/
 
-
-/*########################services#################*/
-
-.services{
-	min-height:80vh;
+.wallpaper {
+	
 	background:url(../img/doodles.png)center/cover fixed no-repeat;
+	background-position:center;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
 	display:flex;
-	align-items:center;
+	flex-direction:column;
 }
 
-.service{
-	color:#f5f3f5;
+.box-container {
 	display:flex;
-	margin:40px;
+	display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+	
+	
 }
 
-.service-icon{
-	align-self:center;
-	font-size:60px;
-	margin-right:20px;
-	padding:20px;
-	border:3px solid #f5f3f5;
-	border-radius:50%;
+.flex-grid-thirds {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  margin-bottom:2em;
+  margin-top:2em;
+}
+.flex-grid-thirds .col {
+  width: 32%;
 }
 
-
-.service-text h3{
-	text-transform:uppercase;
-	color:black;
+@media (max-width: 400px) {
+  .flex-grid,
+  .flex-grid-thirds {
+    display: flex;
+    .col {
+      width: 100%;
+      margin: 20px 0 10px 20px;
+    }
+  }
 }
 
-.service h1{
-	color:black;
+.flex-grid-thirds img{
+	display: block;
+	margin: auto;
+	margin-left: auto;
+    margin-right: auto;
+	width: 50%;
 }
 
-.service-text p{
-	line-height: 2;
-	margin-top: 5px;
-	color:black;
+/** {
+  box-sizing: border-box;
 }
 
-@media screen and (min-width:576px){
-	.services-center{
-		width:70%;
-	}
-}
-@media screen and (min-width:776px){
-	.services-center{
-		width:50%;
-	}
-	.service-text p {
-		width:90%
-	}
+body {
+  padding: 20px;
+}*/
 
+.flex-grid { 
+  margin: 0 0 20px 0;
 }
+.col {
+  background: ;
+  padding: 20px;
+}
+
+/*flexgridthirds*/
+
+
+
 
 /*###############ads/articles###############*/
 
