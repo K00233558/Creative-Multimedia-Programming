@@ -14,6 +14,10 @@ nav ul {
 	display:none;
 }
 
+h1 {
+	color:white;
+}
+
 nav ul a{
 	display:block;
 	background:#0d1317;
