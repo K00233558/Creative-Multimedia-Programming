@@ -577,7 +577,7 @@ footer{
 }
 
 .footer-icon a:hover{
-	color:#4a772f;
+	color:yellow;
 	transform:translateY(-10px)
 }
 
