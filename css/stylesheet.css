@@ -14,9 +14,7 @@ nav ul {
 	display:none;
 }
 
-h1 {
-	color:white;
-}
+
 
 nav ul a{
 	display:block;
@@ -96,9 +94,9 @@ nav{
 }
 	
 .banner h1 {
-	font-size:50px;
+	font-size:30px;
 	text-transform:uppercase;
-	color:white;
+	color:black;
 }
 
 .banner h3 {
